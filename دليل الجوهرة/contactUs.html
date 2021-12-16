@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>دليل الجوهرة داشبورد</title>
+</head>
+<body>
+    <!-- start logo image with circles -->
+    <span class="circle1"></span>
+    <span class="circle2"></span>
+    <img src="photos/Copy of logo-removebg-preview.png" alt="" class="logo2">
+    <!-- end logo image with circles -->
+
+    <!-- shows only in 768px screnn -->
+    <span class="icon">
+        <i class="fas fa-bars" id="bars"></i>
+    </span>
+
+    <!-- start header of dashboard -->
+    <div class="header">
+        <aside>
+            <img src="photos/personal.jpg" alt="personal" class="personal">
+            <i class="fas fa-circle" id="dot"></i>
+
+            <div class="icon">
+                <i class="fas fa-cog" id="cog"></i>
+            </div>
+        </aside>
+    </div>
+    <!-- end header of dashboard -->
+
+    <!-- start list of main links -->
+    <div class="sidebar">
+
+        <!-- logo shows only in 768px screens -->
+        <img src="photos/logo-removebg-preview.png" alt="altLogo" class="altLogo" style="display: none;">
+        <!-- logo shows only in 768px screens -->
+
+        <!--  start information of the client -->
+        <div class="client-info">
+            <img src="photos/personal.jpg" alt="personal">
+            <div class="details">
+                <p class="name">احمد ابراهيم محمد</p>
+                <p class="job" style="color:rgba(128, 128, 128, 0.705)">UI / UX</p>
+            </div>
+        </div>
+        <!-- end information of the client -->
+
+        <!-- start ul links -->
+        <div class="mainLinks">
+            <ul style="list-style: none;">
+                <li>
+                    <a href="main.html" style="color:#b9b0b0">
+                        <i class="fas fa-tachometer-alt" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الرئيسية</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="products.html" style="color:#b9b0b0">
+                        <i class="fas fa-box" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">المنتجات</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="settings.html" style="color:#b9b0b0">
+                        <i class="fas fa-cog" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاعدادات</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="suggestions.html" style="color:#b9b0b0">
+                        <i class="fas fa-users" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الشكاوي والاقتراحات</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="opinions.html" style="color:#b9b0b0">
+                        <i class="fas fa-comment-alt" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاراء والتقييمات</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contactUs.html" style="color:#f47321">
+                        <i class="fas fa-phone-alt" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">اتصل بنا</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html" style="color:#b9b0b0">
+                        <i class="fas fa-sign-out-alt" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">تسجيل الخروج</h4>
+                        <i class="fas fa-chevron-left" id="sIcon"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end ul links -->
+    </div>
+    <!-- end list of main links -->
+
+
+    <div class="content" style="height: fit-content; top:67px">
+        <h3 style="font-size: 20px; font-weight: 600;">اتصل بنا</h3>
+        <p style="color:#b9b0b0;font-size: 14px; ">هذا النص هو مثال لنص يمكن ان يستبل مكانه</p>
+
+        <div class="sugContent">
+
+            <form action="" class="form4">
+
+                <label for="">اسم المستخدم</label>
+                <input type="text" placeholder="احمد سمير">
+
+                <label for="">البريد الالكتروني</label>
+                <input type="email" placeholder="example@gmail.com">
+
+                <label for="">رسالتك</label>
+                <textarea placeholder="هذا النص هو مثال لنص يمكن ان يوضع خلاله" style="height: 60px;"></textarea>
+
+                <button class="add">ارسال</button>
+            </form>
+        </div>
+            
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
